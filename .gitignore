@@ -33,5 +33,6 @@ prac-java/.gitignore
 prac-kotlin/.gitignoree
 
 ## idea
-prac-java/.idea/vcs.xml
-prac-kotlin/.idea/vcs.xml
+.idea/**
+prac-java/.idea/**
+prac-kotlin/.idea/**
