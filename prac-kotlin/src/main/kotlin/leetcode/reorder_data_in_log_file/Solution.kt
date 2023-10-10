@@ -14,8 +14,8 @@ fun main() {
 
 class Solution {
     fun reorderLogFiles(logs: Array<String>): Array<String> {
-        var letterLogs = mutableListOf<String>()
-        var digitLogs = mutableListOf<String>()
+        val letterLogs = mutableListOf<String>()
+        val digitLogs = mutableListOf<String>()
 
         for (log in logs) {
             val firstContentChar = log.split(" ")[1][0]
