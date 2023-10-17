@@ -6,7 +6,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        String paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.";
+        String paragraph = "..Bob hit a ball, the hit BALL flew far after it was hit.";
         String[] banned = new String[]{"hit"};
         String result = solution.mostCommonWord(paragraph, banned);
         System.out.println(result);
@@ -29,6 +29,6 @@ class Solution {
     }
 
     private String[] convertParagraphToWords(String paragraph) {
-        return paragraph.replaceAll("\\W+", " ").toLowerCase().split(" ");
+        return paragraph.replaceAll("\\W+", " ").trim().toLowerCase().split(" ");
     }
 }
