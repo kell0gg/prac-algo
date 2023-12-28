@@ -1,4 +1,4 @@
-package palindrome_linked_list;
+package leetcode.palindrome_linked_list;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

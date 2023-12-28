@@ -1,4 +1,4 @@
-package leetcode.leetcode.reverse_linked_list_ii
+package leetcode.reverse_linked_list_ii
 
 
 // https://leetcode.com/problems/reverse-linked-list-ii/

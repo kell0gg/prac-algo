@@ -1,4 +1,4 @@
-package palindrome_linked_list;
+package leetcode.palindrome_linked_list;
 
 public class ListNode {
     int val;
