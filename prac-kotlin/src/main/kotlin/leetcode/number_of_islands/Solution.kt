@@ -1,5 +1,6 @@
 package leetcode.number_of_islands
 
+// https://leetcode.com/problems/number-of-islands/description/
 fun main() {
     val solution = Solution()
     val grid = Array(5) { CharArray(4) }
