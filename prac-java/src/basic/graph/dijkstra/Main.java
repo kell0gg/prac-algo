@@ -10,28 +10,6 @@ public class Main {
 }
 
 class Solution {
-    public void dijkstraWithArray() {
-        // graph 생성
-        int n = 4;
-        int[][] edges = {{1, 2, 4}, {1, 3, 2}, {2, 3, 5}, {2, 4, 10}, {3, 4, 3}};
-        Map<Integer, List<Node>> graph = new HashMap<>();
-        for (int[] edge : edges) {
-            graph.computeIfAbsent(edge[0], k -> new ArrayList<>()).add(new Node(edge[1], edge[2]));
-        }
-
-        int[] distances = new int[n + 1];
-        int start = 1;
-        Arrays.fill(distances, Integer.MAX_VALUE);
-        distances[start] = 0;
-
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-                // 가장 가까운 노드가 존재하지 않으면
-            }
-        }
-
-    }
-
     public void dijkstra() {
         // graph 생성
         int n = 4;
